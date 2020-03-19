@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Manuel Bono">
+    <meta name="robots" content="index,follow">
+    <meta name="description"
+        content="Este es mi proyecto y trata sobre una breve introducción a las comidas principales">
+    <meta name="keywords" content="Comida verdura pasta">
+    <script src="../micodigo.js"></script>
+    <link rel="stylesheet" href="../miestilo.css">
+    <link rel="icon" type="image/png" href="./icons/icono.jfif">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <header>
+        <h1>Complete nuestro formulario por favor</h1>
+    </header>
+    <main>
+        <div class="formu">
+            <form action="mailto:manuelbonotorres@gmail.com" method="POST" enctype="text/plain" name="formulario" onsubmit="return validar_nombre()">
+                <fieldset>
+                    <legend>Datos Básicos</legend>
+                    <label>Nombre: <input type="text" name="nombre" id="nombre"size="30"  ></label>
+                    <label>Apellidos: <input type="text" name="Apellidos" size="30" id="Apellidos"  ></label><br>
+                    Opiniones<br><textarea name="opiniones" id="opiniones" rows="8" cols="50">.....</textarea><br />
+                    Foto de perfil<br> <input type="file" name="adjunto" id="adjunto" accept=".doc, .git" /><br>
+                    Nombre en la página<br> <select type="text" name="Apodo" id="Apodo" size="10" autocomplete="nickname"  ><br>
+                    Contraseña: <input type="password" name="contrasena" id = "contrasena"  onblur="validar_contrasena()"  ><br><br>
+                    Introduce tu edad: <input type="number" name="Edad" id="edad" step="1" 
+                        min="18"><br><br>
+                    Número de teléfono: <input type="text" name="Telefono" id="tel" value="+34" onchange="numerico()" ><br><br>
+                    Introduce tu correo electronico: <input type="email" name="email" onblur="validar_email()" size="20" id="email" autocomplete="email"
+                        ><br><br>
+                    Introduce tu fecha de nacimiento: <input type="date"  name="Fecha" id="fecha" ><br><br>
+                    <label for="micolor">Selector de color:</label> <br>
+                    <input type="color" name="micolor" id="micolor" value="#33FF42">
+                </fieldset>
+                <fieldset>
+                    <legend>Tipo de comida favorita </legend>
+                    <p>
+                        <label for="comida" class="comida">Española</label>
+                        <input type="radio" name="p1" class="h" size="12"><br>
+                        <label for="comida" class="comida">Mexicana</label>
+                        <input type="radio" name="p1" readonly class="h"><br>
+                        <label for="comida" class="comida">Asiática</label>
+                        <input type="radio" name="p1" class="h"><br>
+                        <label for="comida" class="comida">Otra</label>
+                        <input type="text" name="p1" id="opciones" class="h" onblur="validar_select()" > <br>
+                    </p>
+                    <p>
+                        Chef español favorito:
+                        <label for="chef" class="chef">Dabiz Muñoz</label>
+                        <input type="radio" name="p2" class="hn"><br>
+                        <label for="chef" class="chef">Alberto Chicote</label>
+                        <input type="radio" name="p2" class="hn"><br>
+                        <label for="chef" class="chef">Karlos Alguiñano</label>
+                        <input type="radio" name="p2" class="hn"><br>
+                        <label for="chef" class="chef">Otro</label>
+                        <input type="text" name="p2" class="hn"> <br>
+                    </p>
+                    <p>
+                        Valora mi página
+                        <label for="valor" class="valor"><br>1</label>
+                        <input type="radio" name="p3" class="hp"><br>
+                        <label for="valor" class="valor">2</label>
+                        <input type="radio" name="p3" class="hp"><br>
+                        <label for="valor" class="valor">3</label>
+                        <input type="radio" name="p3" class="hp"><br>
+                        <label for="valor" class="valor">4</label>
+                        <input type="radio" name="p3" class="hp"> <br>
+                    </p>
+                    <button type="submit" value="Enviar">enviar</button>
+                    <button type="reset" value="Borrar">Borrar</button>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <figure>
+            <a href="../index.html#formulario">
+                <picture>
+                    <source media="(max-width: 799px)" srcset="../images/volvermovil1.jpg">
+                    <source media="(min-width: 800px)" srcset="../images/volvermovil.jpg">
+                    <img src="../images/volvermovil.jpg" alt="Clicke aquí">
+                </picture>
+            </a>
+        </figure>
+        <p>Hecho por Manuel Bono.</p>
+        <p>Asignatura: Programación B</p>
+        <p>Curso 2019-2020</p>
+        <img src="../images/instagram.jpg" alt="">
+        <img src="../images/facebook.png" alt="">
+    </footer>
+
+</body>
+
+</html>
