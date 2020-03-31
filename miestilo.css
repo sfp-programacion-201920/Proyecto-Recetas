@@ -2,140 +2,140 @@
 
 
 body {
-font-family:'Roboto', sans-serif;
- background-image: url(images/morty.jpg);
- background-attachment: fixed;
- background-color: #26c917;
-
-}
-
-span
-{
-color: rgb(255, 255, 255);
-}
-
-
-p
-{
-  background-color: #26c917;  
-}
-
-
-                table {
-                    width: 75%;
-                    border-collapse: collapse;
-                    background-color: #26c917;
-                }
-            
-                td {
-                    border: 2px solid black;
-                    text-align: center;
-                }
-            
-
-header
-{
-background-color: #5488e7;
-text-align: center;
-
-align-items: center;
-}
-
-
-nav
-{
-align-items: center;
-text-align: center;
-}
-
-main
-{
-
-margin: 140px;
-
-}
-section{
-
-
-margin-left: 100px;
-margin-right: 100px;
-text-align: center;
-padding: 10px;
-
-}
-article{
-
-margin: 15px;
-padding: 10px;
-border-top-width: thin;
-border-bottom-width: thin;
-border-left-width: thin;
-border-right-width: thin;
-margin-left: 50px;
-margin-right: 50px;
-text-align: center;
-align-items: center;
-}
-aside
-{
-
-margin-left: 130px;
-margin-right: 130px;
-}
-
-footer
-{
-    color: azure;
-    background-image: url(images/pie.jpg);
-    padding: 1%;
+    font-family:'Roboto', sans-serif;
+     background-image: url(images/morty.jpg);
+     background-attachment: fixed;
+     background-color: #26c917;
+    
+    }
+    
+    span
+    {
+    color: rgb(255, 255, 255);
+    }
+    
+    
+    p
+    {
+      background-color: #26c917;  
+    }
+    
+    
+                    table {
+                        width: 75%;
+                        border-collapse: collapse;
+                        background-color: #26c917;
+                    }
+                
+                    td {
+                        border: 2px solid black;
+                        text-align: center;
+                    }
+                
+    
+    header
+    {
+    background-color: #5488e7;
     text-align: center;
-}
-#comentarios
-{
-background-color: yellow;
-}
-
-.esp{
-    background-color: rgb(241, 225, 0) ;
-    margin: 165px;
-}
-.mex{
-    background-color: rgb(255, 255, 255);
-    margin: 165px;
-}
-.mex2{
-    background-color: green;
-}
-.mex3{
-    background-color: red;
-}
-.asi{
-    background-color: rgb(255, 0, 0);
-    margin: 165px;
-}
-.but{
-margin:100px;
-}
-.img2{
-    opacity: 0.8;
-}
-.img2:hover{
-    opacity: 1.0;
-}
-.esp2{
-    background-color: red;
-}
-.asi2{
-    background-color: yellow
-}
-.formu{
-    background-color: royalblue;
-}
-img{
+    
+    align-items: center;
+    }
+    
+    
+    nav
+    {
     align-items: center;
     text-align: center;
-}
-picture{
-    align-items: center;
+    }
+    
+    main
+    {
+    
+    margin: 140px;
+    
+    }
+    section{
+    
+    
+    margin-left: 100px;
+    margin-right: 100px;
     text-align: center;
-}
+    padding: 10px;
+    
+    }
+    article{
+    
+    margin: 15px;
+    padding: 10px;
+    border-top-width: thin;
+    border-bottom-width: thin;
+    border-left-width: thin;
+    border-right-width: thin;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    align-items: center;
+    }
+    aside
+    {
+    
+    margin-left: 130px;
+    margin-right: 130px;
+    }
+    
+    footer
+    {
+        color: azure;
+        background-image: url(images/pie.jpg);
+        padding: 1%;
+        text-align: center;
+    }
+    #comentarios
+    {
+    background-color: yellow;
+    }
+    
+    .esp{
+        background-color: rgb(241, 225, 0) ;
+        margin: 165px;
+    }
+    .mex{
+        background-color: rgb(255, 255, 255);
+        margin: 165px;
+    }
+    .mex2{
+        background-color: green;
+    }
+    .mex3{
+        background-color: red;
+    }
+    .asi{
+        background-color: rgb(255, 0, 0);
+        margin: 165px;
+    }
+    .but{
+    margin:100px;
+    }
+    .img2{
+        opacity: 0.8;
+    }
+    .img2:hover{
+        opacity: 1.0;
+    }
+    .esp2{
+        background-color: red;
+    }
+    .asi2{
+        background-color: yellow
+    }
+    .formu{
+        background-color: royalblue;
+    }
+    img{
+        align-items: center;
+        text-align: center;
+    }
+    picture{
+        align-items: center;
+        text-align: center;
+    }

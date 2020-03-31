@@ -25,20 +25,28 @@
             <form action="mailto:manuelbonotorres@gmail.com" method="POST" enctype="text/plain" name="formulario" onsubmit="return validar_nombre()">
                 <fieldset>
                     <legend>Datos Básicos</legend>
-                    <label>Nombre: <input type="text" name="nombre" id="nombre"size="30"  ></label>
-                    <label>Apellidos: <input type="text" name="Apellidos" size="30" id="Apellidos"  ></label><br>
-                    Opiniones<br><textarea name="opiniones" id="opiniones" rows="8" cols="50">.....</textarea><br />
-                    Foto de perfil<br> <input type="file" name="adjunto" id="adjunto" accept=".doc, .git" /><br>
-                    Nombre en la página<br> <select type="text" name="Apodo" id="Apodo" size="10" autocomplete="nickname"  ><br>
-                    Contraseña: <input type="password" name="contrasena" id = "contrasena"  onblur="validar_contrasena()"  ><br><br>
-                    Introduce tu edad: <input type="number" name="Edad" id="edad" step="1" 
-                        min="18"><br><br>
-                    Número de teléfono: <input type="text" name="Telefono" id="tel" value="+34" onchange="numerico()" ><br><br>
-                    Introduce tu correo electronico: <input type="email" name="email" onblur="validar_email()" size="20" id="email" autocomplete="email"
-                        ><br><br>
-                    Introduce tu fecha de nacimiento: <input type="date"  name="Fecha" id="fecha" ><br><br>
+                    <label for="nombre" >Nombre: <input type="text" name="nombre" id="nombre"size="30"  ></label>
+                    <label for="Apellidos">Apellidos: <input type="text" name="Apellidos" size="30" id="Apellidos"  ></label><br>
+                    <label for="Apellidos"> Opiniones<br><textarea name="opiniones" id="opiniones" rows="8" cols="50">.....</textarea></label><br />
+                    <label for="adjunto">Foto de perfil<br> <input type="file" name="adjunto" id="adjunto" accept=".doc, .git" /></label><br>
+                    <label for ="Apodo">Nombre en la página<br><input type="text" name="Apodo" id="Apodo" size="10" autocomplete="nickname"  ></label><br>
+                    <label for="contrasena">Contraseña: <input type="password" name="contrasena" id = "contrasena"  onblur="validar_contrasena()"  ><br> </label><br>
+                    <label for="Edad">Introduce tu edad: <input type="number" name="Edad" id="edad" step="1" 
+                        min="18"><br></label><br>
+                    <label for="tel">Número de teléfono: <input type="text" name="Telefono" id="tel" value="+34" onchange="numerico()" ><br></label><br>
+                    <label for="email">Introduce tu correo electronico: <input type="email" name="email" onblur="validar_email()" size="20" id="email" autocomplete="email"
+                        ><br></label><br>
+                    <label for="fecha">Introduce tu fecha de nacimiento: <input type="date"  name="Fecha" id="fecha" ><br></label><br>
                     <label for="micolor">Selector de color:</label> <br>
                     <input type="color" name="micolor" id="micolor" value="#33FF42">
+                    <label for="provincia">Seleccione su provincia</label><br>
+                    <select name="provincia" id="provincia">
+                        <option value="ov">Tipo de comida preferida</option>
+                        <optgroup label="Tipo">
+                            <option value="cr">Carne</option>
+                            <option value="cu">Verdura</option>     
+                        </optgroup>
+                    </select>
                 </fieldset>
                 <fieldset>
                     <legend>Tipo de comida favorita </legend>
