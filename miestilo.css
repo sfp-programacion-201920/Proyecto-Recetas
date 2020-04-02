@@ -15,10 +15,7 @@ body {
     }
     
     
-    p
-    {
-      background-color: #26c917;  
-    }
+    
     
     
                     table {
@@ -46,12 +43,13 @@ body {
     {
     align-items: center;
     text-align: center;
+    margin-bottom: 2px;
     }
     
     main
     {
-    
-    margin: 140px;
+    margin-top: 2px;
+    margin: 40px;
     
     }
     section{
@@ -126,7 +124,7 @@ body {
         background-color: red;
     }
     .asi2{
-        background-color: yellow
+        background-color: rgb(53, 103, 179)
     }
     .formu{
         background-color: royalblue;
@@ -137,5 +135,12 @@ body {
     }
     picture{
         align-items: center;
+        text-align: center;
+    }
+
+    .but{
+        margin-bottom: 10px;
+    }
+    .img3{
         text-align: center;
     }
